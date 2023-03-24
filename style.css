@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html {
+    background-color: lightsteelblue;
+    height: 142%;
+    margin-left: -7px;
+}
+.navbar {
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0 11px 10px rgba(0, 0, 0, .1);
+    position: fixed;
+    background-color: lightsteelblue;
+    margin-top: -8px;
+    z-index: 2;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+.navbar-menu {
+    list-style-type: none;
+    padding: 8px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.navbar-menu li {
+    display: inline-block;
+}
+.navbar-menu li a {
+    display: inline-block;
+    color: #000000;
+    opacity: 0.7;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.7s ease-in-out;
+    font-size: 20px;
+
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.callback {
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 18px 30px 0 30px;
+    margin-bottom: 5px;
+    background-color: coral;
+    border-radius: 100px;
+    color: white ;
+    transition: all .1s ease-in-out;
+    box-shadow: 0 3px 6px coral;
+    font-size: 18px;
+}
+.navbar-brand {
+    font-weight: 500;
+    font-size: 28px;
+    color: #000;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    padding-left: 20px;
+}
+.navbar-menu li a:hover {
+    opacity: 1;
+    color: coral;
+    transition: all 0.5s;
+}
+.navbar-brand:hover {
+    color: coral;
+}
+.callback:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 9px coral;
+}
+.about {
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612793903_28-p-goluboi-grafichnii-fon-30.png") ;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-size: cover; /* Современные браузеры */
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.myPhoto {
+    margin: 15vh 5vw 2vh 10.5vw;
+    width: 51%;
+    height: 55vh;
+    border-radius: 10px;
+    border: solid 4px lightslategrey;
+}
+.name {
+    padding:5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: aliceblue;
+    width: 53%;
+    margin: 0 10.2vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.developer {
+    padding:5px 5vw;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: aliceblue;
+    width: 26%;
+    margin: 10px 10.2vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.aboutMe2 {
+    font-size: 22px;
+    margin: 16vh 0 2vh -5vw;
+    text-align: center;
+}
+.aboutMe2 ul li {
+    list-style-type: none;
+}
+.aboutUl {
+    margin-top: 5px;
+}
+.gallery {
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    padding-top: 70px;
+}
+.photoGallery {
+    width: 400px;
+    height: 500px;
+    margin: 40px 20px;
+}
+.resume {
+    width: 50vw;
+    height: 110vh;
+    margin-top: 90px;
+    margin-left: 25%;
+}
+.resumeDiv {
+    justify-content: center;
+    width: 100vw;
+}
+.contacts {
+    display: inline-block;
+    margin-top: 60px;
+    padding-top: 300px;
+    width: 100vw;
+    height: 70vh;
+    background-image: url("https://avatars.mds.yandex.net/i?id=b6fb350dd69bae7d323f5fbfeb7505e9-5877938-images-thumbs&n=13") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contactMe {
+    padding-left: 50px;
+}
+.contactMe2 {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.works {
+    display: inline-block;
+    margin-top: -250px;
+    padding-top: 300px;
+    width: 100vw;
+    height: 90vh;
+    background-image: url("https://shutniks.com/wp-content/uploads/2020/01/minimalizm-kak-luchshij-put-zhizni.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    background: lightsteelblue;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer {
+    position: relative;
+    margin-top: 20vh;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon,
+
+
+.social-icon__item,
+
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+    100% {
+        background-positon-x: 0px;
+    }
+}
