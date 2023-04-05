@@ -91,7 +91,7 @@ html {
 }
 .myPhoto {
     margin: 15vh 5vw 2vh 10.5vw;
-    width: 51%;
+    width: 57%;
     height: 55vh;
     border-radius: 10px;
     border: solid 4px lightslategrey;
@@ -101,7 +101,7 @@ html {
     font-size: 20px;
     font-weight: 500;
     background-color: aliceblue;
-    width: 53%;
+    width: 59%;
     margin: 0 10.2vw;
     border-radius: 10px;
     text-align: center;
@@ -111,7 +111,7 @@ html {
     font-size: 18px;
     font-weight: 500;
     background-color: aliceblue;
-    width: 26%;
+    width: 32%;
     margin: 10px 10.2vw;
     border-radius: 10px;
     text-align: center;
