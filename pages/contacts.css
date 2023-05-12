@@ -1,0 +1,41 @@
+.contactTittleContainer {
+    margin-top: 60px;
+    width: 100vw;
+    height: 22vh;
+    background-image: url("../photos/contTittle.jpg");
+    background-position: bottom;
+    text-align: center;
+    color: white;
+}
+.contactTittle {
+font-weight: 500;
+    font-size: 28px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+.contactContent {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: content-box;
+    background-image: url("../photos/contBackground.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.contactIconBox {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.contactItemTittle {
+    margin-top: 5px;
+}
+.contactItemText {
+    padding-left: 20px;
+}
+@media(max-width: 780px) {
+    .contactContent {
+        padding: 0 30px;
+    }
+}
